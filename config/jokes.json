@@ -134,6 +134,12 @@
 			{"type": 0, "text": "Now, time to end this."},
 			{"type": 1, "anim": "shrug_back"}
 		],
+		[
+			{"type": 0, "text": "why did the criminal get arrested?"},
+			{"type": 1, "anim": "praise_fwd"},
+			{"type": 0, "text": "put your hand up in the air!"},
+			{"type": 1, "anim": "praise_back"}
+		],
 	],
 	"end": [
 		[
