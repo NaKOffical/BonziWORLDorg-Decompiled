@@ -139,8 +139,8 @@
 			{"type": 1, "anim": "praise_fwd"},
 			{"type": 0, "text": "put your hands up in the air!"},
 			{"type": 1, "anim": "praise_back"}
-		],
-	]
+		]
+	], 
 	"end": [
 		[
 			{"type": 0, "text": "You know {NAME}, a good friend laughs at your jokes even when they're not so funny."},
