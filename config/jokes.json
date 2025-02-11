@@ -63,7 +63,7 @@
 		],
 		[
 			{"type": 0, "text": "What do you call a man who shaves 10 times a day?"},
-			{"type": 0, "text": "A woman."},
+			{"type": 0, "text": "A skinless person!"},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
@@ -72,8 +72,8 @@
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
-			{"type": 0, "text": "Black lives matter is a joke."},
-			{"type": 0, "text": "WHITE LIVES MATTER!"},
+			{"type": 0, "text": "Black lives matter isn't a joke."},
+			{"type": 0, "text": "this should be taken seriously."},
 			{"type": 1, "anim": "shrug_back"}
 		],
 		[
@@ -127,7 +127,13 @@
 			{"type": 1, "anim": "shrug_back"},
 			{"type": 0, "text": "Sorry. I just had an epiphany of my own sad, sad existence."},
 			{"type": 1, "anim": "shrug_back"}
-		]
+		], 
+		[
+			{"type": 0, "text": "Why did the donkey cross the road?"},
+			{"type": 0, "text": "To get to the isnotreal flag!"},
+			{"type": 0, "text": "Now, time to end this."},
+			{"type": 1, "anim": "shrug_back"}
+		],
 	],
 	"end": [
 		[
@@ -151,5 +157,9 @@
 		[{"type": 0, "text": "You should tell these jokes to your mother!"}],
 		[{"type": 0, "text": "I hope you're offended."}],
 		[{"type": 0, "text": "Maybe I'll keep my day job, {NAME}. Patreon didn't accept me."}]
-	]
+	], 
+	[
+			{"type": 0, "text": "You know {NAME}, you're about to get nuked."},
+			{"type": 0, "text": "And you need to follow the ToS. Thanks."}
+		]
 }
