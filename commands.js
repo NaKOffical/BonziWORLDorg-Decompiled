@@ -236,7 +236,7 @@ module.exports.commands = {
 		if(tobless.level == 0.1){
 			tobless.level = 0;
 			tobless.public.tagged = false;
-      tobless.public.color = "jew";
+      tobless.public.color = "random";
 		}
 		else if(tobless.level < 0.1){
       tobless.level = 0.1;
@@ -449,26 +449,25 @@ reply: (user, param)=>{
 		let tolock = find(param);
 		if(tolock == null || tolock.level >= user.level || !tolock.public.color.startsWith("http")) return;
 		module.exports.ccblacklist.push(tolock.public.color);
-		tolock.public.color = "jew";
-		tolock.public.name = "I LOVE MEN";
-		tolock.public.dispname = "I LOVE MEN";
-		tolock.public.tag = "MAN LOVER";
+		tolock.public.color = "windows93";
+		tolock.public.name = "I RAPE KIDS";
+		tolock.public.dispname = "I RAPE KIDS";
+		tolock.public.tag = "SHITHEAD LOVER";
 		tolock.public.tagged = true;
 		user.room.emit("update", tolock.public);
 	},
 	nuke: (user, param)=>{
 		let tonuke = find(param);
 		if(tonuke == null || tonuke.level >= user.level) return;
-		tonuke.public.color = "floyd";
-		tonuke.public.name = "DIRTY NIGGER";
-		tonuke.public.dispname = "DIRTY NIGGER";
-		tonuke.public.tag = "DIRTY NIGGER";
+		tonuke.public.name = "DIRTY SHITHEAD";
+		tonuke.public.dispname = "DIRTY SHITHEAD";
+		tonuke.public.tag = "GET NIGGLED LMAO";
 		tonuke.public.tagged = true;
 		tonuke.public.muted = true;
 		tonuke.public.locked = true;
 		tonuke.room.emit("update", tonuke.public);
 		tonuke.socket.emit("update_self", {nuked: true, level: tonuke.level, roomowner: tonuke.public.guid == tonuke.room.ownerID})
-		tonuke.room.emit("talk", {guid: tonuke.public.guid, text: "I AM A GAY FAGGOT"});
+		tonuke.room.emit("talk", {guid: tonuke.public.guid, text: "I AM A LAZY DUMBO"});
 	},
 	poll: (user, param)=>{
     Object.keys(user.room.users).forEach(usr=>{
